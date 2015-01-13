@@ -6,7 +6,10 @@
     "Quinn Scripter <qscripter@gmail.com>"
   ],
   "description": "Open Layers map tool",
-  "main": "build/ol.js",
+  "main": [
+	   "build/ol.js",
+     "build/ol.css"
+  ],
   "license": "MIT",
   "private": true,
   "ignore": [
